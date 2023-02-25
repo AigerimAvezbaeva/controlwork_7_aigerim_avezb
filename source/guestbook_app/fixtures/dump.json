@@ -5,19 +5,7 @@
     "fields": {
         "fullname": "Aigerim",
         "email": "av21m1999@gmail.com",
-        "text": "[25/Feb/2023 06:25:55] \"GET /static/admin/css/widgets.css HTTP/1.1\" 200 11297\r\n[25/Feb/2023 06:25:55] \"GET /static/admin/js/filters.js HTTP/1.1\" 200 966\r\n[25/Feb/2023 06:25:55] \"GET /static/admin/img/search.svg HTTP/1.1\" 200 458\r\n[25/Feb/2023 06:25:55] \"GET /static/admin/img/tooltag-add.svg HTTP/1.1\" 200 331\r\n[25/Feb/2023 06:25:59] \"GET /admin/guestbook_app/guestbook/add/ HTTP/1.1\" 200 7806\r\n[25/Feb/2023 06:25:59] \"GET /static/admin/js/prepopulate_init.js HTTP/1.1\" 200 586\r\n[25/Feb/2023 06:25:59] \"GET /static/admin/js/change_form.js HTTP/1.1\" 200 606\r\n[25/Feb/2023 06:25:59] \"GET /admin/jsi18n/ HTTP/1.1\" 200 3343",
-        "status": "active",
-        "created_at": "2023-02-25",
-        "updated_at": "2023-02-25"
-    }
-},
-{
-    "model": "guestbook_app.guestbook",
-    "pk": 2,
-    "fields": {
-        "fullname": "Liya",
-        "email": "a.avezbaeva@telenova.kz",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "text": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
         "status": "active",
         "created_at": "2023-02-25",
         "updated_at": "2023-02-25"
@@ -40,7 +28,7 @@
     "pk": 4,
     "fields": {
         "fullname": "John Doe",
-        "email": "john_cuteboy@mail.ru",
+        "email": "john_cuteboy@gmail.ru",
         "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
         "status": "active",
         "created_at": "2023-02-25",
@@ -55,6 +43,30 @@
         "email": "jane_cutegirl@gmail.com",
         "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
         "status": "blocked",
+        "created_at": "2023-02-25",
+        "updated_at": "2023-02-25"
+    }
+},
+{
+    "model": "guestbook_app.guestbook",
+    "pk": 6,
+    "fields": {
+        "fullname": "George",
+        "email": "john_cuteboy@mail.ru",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+        "status": "active",
+        "created_at": "2023-02-25",
+        "updated_at": "2023-02-25"
+    }
+},
+{
+    "model": "guestbook_app.guestbook",
+    "pk": 8,
+    "fields": {
+        "fullname": "Jane Doe",
+        "email": "George@kaspi.kz",
+        "text": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "status": "active",
         "created_at": "2023-02-25",
         "updated_at": "2023-02-25"
     }
