@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}
+Confirm delete
+{% endblock %}
+{% block menu %}
+<a class="nav-link active" aria-current="page" href="{% url 'add_guest' %}">Добавить запись</a>
+<a class="nav-link" href="{% url 'update_guest' guest.pk %}">Редактировать</a>
+{% endblock %}
+{% block content %}
+<div class="wrapper">
+    <main class="main">
+        <div class="container">
+            <h2 class="qwerty">Вы точно хотите удалить данную запись?</h2>
+            <div class="card">
+                <div class="card-head">
+                    <div class="title">
+                        <h3 class="par-title">{{ guest.fullname }} </h3>
+                        <p class="par-title">({{ guest.email }})</p>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <p>{{ guest.text }}</p>
+                </div>
+            </div>
+
+        <form action="{% url 'confirm_delete' guest.pk %}" method="POST">
+            {% csrf_token %}
+            <div>
+            <div class="form_row">
+            <p><a href="{% url 'confirm_delete' guest.pk %}" class="parlink pro">
+                <button type="button" class="btn btn-danger">Удалить</button>
+            </a></p>
+            <p><a href="{% url 'index' %}" class="parlink pro">
+                <button type="button" class="btn btn-success">Отмена</button>
+            </a></p>
+                </div>
+            </div>
+        </form>
+
+</main>
+</div>
+{% endblock %}
+
