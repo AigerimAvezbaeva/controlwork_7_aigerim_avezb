@@ -1,0 +1,80 @@
+[
+{
+    "model": "guestbook_app.guestbook",
+    "pk": 1,
+    "fields": {
+        "fullname": "Aigerim",
+        "email": "av21m1999@gmail.com",
+        "text": "[25/Feb/2023 06:25:55] \"GET /static/admin/css/widgets.css HTTP/1.1\" 200 11297\r\n[25/Feb/2023 06:25:55] \"GET /static/admin/js/filters.js HTTP/1.1\" 200 966\r\n[25/Feb/2023 06:25:55] \"GET /static/admin/img/search.svg HTTP/1.1\" 200 458\r\n[25/Feb/2023 06:25:55] \"GET /static/admin/img/tooltag-add.svg HTTP/1.1\" 200 331\r\n[25/Feb/2023 06:25:59] \"GET /admin/guestbook_app/guestbook/add/ HTTP/1.1\" 200 7806\r\n[25/Feb/2023 06:25:59] \"GET /static/admin/js/prepopulate_init.js HTTP/1.1\" 200 586\r\n[25/Feb/2023 06:25:59] \"GET /static/admin/js/change_form.js HTTP/1.1\" 200 606\r\n[25/Feb/2023 06:25:59] \"GET /admin/jsi18n/ HTTP/1.1\" 200 3343",
+        "status": "active",
+        "created_at": "2023-02-25",
+        "updated_at": "2023-02-25"
+    }
+},
+{
+    "model": "guestbook_app.guestbook",
+    "pk": 2,
+    "fields": {
+        "fullname": "Liya",
+        "email": "a.avezbaeva@telenova.kz",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "status": "active",
+        "created_at": "2023-02-25",
+        "updated_at": "2023-02-25"
+    }
+},
+{
+    "model": "guestbook_app.guestbook",
+    "pk": 3,
+    "fields": {
+        "fullname": "George",
+        "email": "George@kaspi.kz",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        "status": "blocked",
+        "created_at": "2023-02-25",
+        "updated_at": "2023-02-25"
+    }
+},
+{
+    "model": "guestbook_app.guestbook",
+    "pk": 4,
+    "fields": {
+        "fullname": "John Doe",
+        "email": "john_cuteboy@mail.ru",
+        "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "status": "active",
+        "created_at": "2023-02-25",
+        "updated_at": "2023-02-25"
+    }
+},
+{
+    "model": "guestbook_app.guestbook",
+    "pk": 5,
+    "fields": {
+        "fullname": "Jane Doe",
+        "email": "jane_cutegirl@gmail.com",
+        "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "status": "blocked",
+        "created_at": "2023-02-25",
+        "updated_at": "2023-02-25"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$LyY9y5QyXFL2rfHYY6EgTQ$Zx9cEUU4FTgG+iReV16/Gbu/AppwTn1YwEV0+6dowac=",
+        "last_login": "2023-02-25T06:25:41.817Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-02-25T06:25:20.741Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
