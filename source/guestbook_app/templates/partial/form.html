@@ -1,7 +1,6 @@
 {% load static %}
 {% load bootstrap5 %}
 {% csrf_token %}
-{% bootstrap_form form %}
 <div>
     {% for field in form %}
     <div class="form-group">
@@ -19,5 +18,4 @@
 </div>
 <div class="form_row">
     {% bootstrap_button button_type="submit" content=button_text %}
-    <input type="submit" value="{{ button_text }}" class="submit-button">
 </div>

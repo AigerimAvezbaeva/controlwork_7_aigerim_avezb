@@ -15,4 +15,6 @@ class GuestBook(models.Model):
     updated_at = models.DateField(auto_now=True, verbose_name="Дата и время обновления")
 
     class Meta:
-        verbose_name = 'Гостевая книга'
+        verbose_name = 'Запись гостевой книги'
+        verbose_name_plural = 'Записи гостевой книги'
+        ordering = ['-created_at']
