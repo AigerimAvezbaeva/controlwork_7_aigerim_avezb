@@ -1,0 +1,31 @@
+.card{
+    margin: 20px;
+}
+
+.card-text{
+    padding: 20px;
+}
+.card-head{
+    display: flex;
+    width: 100%
+}
+.title{
+    padding: 15px 15px 0;
+    width: 50%
+}
+.icons{
+    display: inline-flex;
+    width:50%;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 10px;
+}
+.icons-pro{
+    padding:10px;
+}
+.form_row{
+    display:flex;
+}
+.btn{
+    height: 38px;
+}
