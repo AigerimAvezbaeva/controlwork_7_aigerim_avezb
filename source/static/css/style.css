@@ -1,7 +1,13 @@
+.big-card{
+    display: flex;
+    justify-content: space-between;
+}
 .card{
     margin: 20px;
 }
-
+.small-card{
+    width: 50%;
+}
 .card-text{
     padding: 20px;
 }
